@@ -1,6 +1,7 @@
 # PhantomX Robot Simulation in Gazebo with ROS 2 Humble
 
-![PhantomX Robot](https://example.com/path/to/phantomx_image.jpg) <!-- (Optional: Add actual image if available) -->
+![PhantomX Robot](![Hexapod](https://github.com/user-attachments/assets/9c5bb5ec-f658-4929-b8dc-9744de23c94d)
+) <!-- (Optional: Add actual image if available) -->
 
 This repository contains the simulation package of the PhantomX(https://github.com/HumaRobotics/phantomx_gazebo) robot with new in Gazebo adopted for  ROS 2 Humble. The package includes robot description, control configurations, and Gazebo launch files.
 
