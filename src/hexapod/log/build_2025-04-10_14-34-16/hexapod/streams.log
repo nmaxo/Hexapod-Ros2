@@ -1,0 +1,23 @@
+[0.674s] Invoking command in '/home/max/hexapod_ws/src/hexapod': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/src/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/max/hexapod_ws/src/install/interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/max/hexapod_ws/src/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/src/install/interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/max/hexapod_ws/src/install/interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hexapod build --build-base /home/max/hexapod_ws/src/build/hexapod/build install --record /home/max/hexapod_ws/src/build/hexapod/install.log --install-scripts $base/lib/hexapod --single-version-externally-managed install_data
+[0.885s] running egg_info
+[0.885s] writing ../build/hexapod/hexapod.egg-info/PKG-INFO
+[0.885s] writing dependency_links to ../build/hexapod/hexapod.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../build/hexapod/hexapod.egg-info/entry_points.txt
+[0.886s] writing requirements to ../build/hexapod/hexapod.egg-info/requires.txt
+[0.886s] writing top-level names to ../build/hexapod/hexapod.egg-info/top_level.txt
+[0.922s] reading manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'
+[0.923s] writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.923s] running install
+[0.924s] running install_lib
+[0.926s] running install_data
+[0.926s] running install_egg_info
+[0.928s] removing '/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info' (and everything under it)
+[0.928s] Copying ../build/hexapod/hexapod.egg-info to /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info
+[0.929s] running install_scripts
+[0.947s] Installing coordinator script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.947s] Installing leg_controller script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.947s] Installing sensor_node script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.947s] writing list of installed files to '/home/max/hexapod_ws/src/build/hexapod/install.log'
+[0.973s] Invoked command in '/home/max/hexapod_ws/src/hexapod' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/src/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/max/hexapod_ws/src/install/interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/max/hexapod_ws/src/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/src/install/interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/max/hexapod_ws/src/install/interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hexapod build --build-base /home/max/hexapod_ws/src/build/hexapod/build install --record /home/max/hexapod_ws/src/build/hexapod/install.log --install-scripts $base/lib/hexapod --single-version-externally-managed install_data

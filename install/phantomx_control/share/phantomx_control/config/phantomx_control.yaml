@@ -1,0 +1,57 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+      
+joint_trajectory_controller:
+  ros__parameters:
+      joints:
+        - j_c1_lf
+        - j_c1_rf
+        - j_c1_lm
+        - j_c1_rm
+        - j_c1_lr
+        - j_c1_rr
+        - j_thigh_lf
+        - j_thigh_rf
+        - j_thigh_lm
+        - j_thigh_rm
+        - j_thigh_lr
+        - j_thigh_rr
+        - j_tibia_lf
+        - j_tibia_rf
+        - j_tibia_lm
+        - j_tibia_rm
+        - j_tibia_lr
+        - j_tibia_rr
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      gains:
+        j_c1_lf:     {p: 500.0, i: 0.0, d: 5.0}
+        j_c1_rf:     {p: 500.0, i: 0.0, d: 5.0}
+        j_c1_lm:     {p: 500.0, i: 0.0, d: 5.0}
+        j_c1_rm:     {p: 500.0, i: 0.0, d: 5.0}
+        j_c1_lr:     {p: 500.0, i: 0.0, d: 5.0}
+        j_c1_rr:     {p: 500.0, i: 0.0, d: 5.0}
+
+        j_thigh_lf:  {p: 80.0, i: 0.0, d: 8.0}
+        j_thigh_rf:  {p: 80.0, i: 0.0, d: 8.0}
+        j_thigh_lm:  {p: 80.0, i: 0.0, d: 8.0}
+        j_thigh_rm:  {p: 80.0, i: 0.0, d: 8.0}
+        j_thigh_lr:  {p: 80.0, i: 0.0, d: 8.0}
+        j_thigh_rr:  {p: 80.0, i: 0.0, d: 8.0}
+
+        j_tibia_lf:  {p: 90.0, i: 0.0, d: 9.0}
+        j_tibia_rf:  {p: 90.0, i: 0.0, d: 9.0}
+        j_tibia_lm:  {p: 90.0, i: 0.0, d: 9.0}
+        j_tibia_rm:  {p: 90.0, i: 0.0, d: 9.0}
+        j_tibia_lr:  {p: 90.0, i: 0.0, d: 9.0}
+        j_tibia_rr:  {p: 90.0, i: 0.0, d: 9.0}

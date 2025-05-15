@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<robot name="PhantomX" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Включение основного описания робота -->
+  <xacro:include filename="$(find phantomx_description)/urdf/phantomx_urdf.xacro" />
+  
+  <link name="base_link"/>
+
+  <!-- Вызов макроса phantomx с указанием родительской ссылки -->
+  <xacro:phantomx parent="base_link">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:phantomx>
+  
+  <!-- Gazebo plugin для ros2_control -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find phantomx_control)/config/phantomx_control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- ROS2 Control configuration -->
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <!-- Фронтальные правые (rf) -->
+    <joint name="j_c1_rf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_rf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_rf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Средние правые (rm) -->
+    <joint name="j_c1_rm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_rm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_rm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Задние правые (rr) -->
+    <joint name="j_c1_rr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_rr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_rr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Фронтальные левые (lf) -->
+    <joint name="j_c1_lf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_lf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_lf">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Средние левые (lm) -->
+    <joint name="j_c1_lm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_lm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_lm">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Задние левые (lr) -->
+    <joint name="j_c1_lr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_thigh_lr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j_tibia_lr">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+</robot>

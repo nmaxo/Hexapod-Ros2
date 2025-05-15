@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000393] (-) JobUnselected: {'identifier': 'hexapod'}
+[0.000411] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.000428] (phantomx_description) JobQueued: {'identifier': 'phantomx_description', 'dependencies': OrderedDict()}
+[0.000446] (joint_state_publisher_gui) JobQueued: {'identifier': 'joint_state_publisher_gui', 'dependencies': OrderedDict([('joint_state_publisher', '/home/max/hexapod_ws/install/joint_state_publisher')])}
+[0.000465] (phantomx_control) JobQueued: {'identifier': 'phantomx_control', 'dependencies': OrderedDict([('phantomx_description', '/home/max/hexapod_ws/install/phantomx_description')])}
+[0.000481] (phantomx_gazebo) JobQueued: {'identifier': 'phantomx_gazebo', 'dependencies': OrderedDict([('phantomx_description', '/home/max/hexapod_ws/install/phantomx_description'), ('phantomx_control', '/home/max/hexapod_ws/install/phantomx_control')])}
+[0.000847] (phantomx_description) JobStarted: {'identifier': 'phantomx_description'}
+[0.012234] (joint_state_publisher_gui) JobStarted: {'identifier': 'joint_state_publisher_gui'}
+[0.018394] (joint_state_publisher_gui) JobEnded: {'identifier': 'joint_state_publisher_gui', 'rc': 1}
+[0.019273] (phantomx_description) JobEnded: {'identifier': 'phantomx_description', 'rc': 'SIGINT'}
+[0.029970] (phantomx_control) JobSkipped: {'identifier': 'phantomx_control'}
+[0.030047] (phantomx_gazebo) JobSkipped: {'identifier': 'phantomx_gazebo'}
+[0.030068] (-) EventReactorShutdown: {}

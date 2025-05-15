@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/max/hexapod_ws/build/phantomx_control': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_control -- -j8 -l8
+[0.038s] Invoked command in '/home/max/hexapod_ws/build/phantomx_control' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_control -- -j8 -l8
+[0.039s] Invoking command in '/home/max/hexapod_ws/build/phantomx_control': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_control
+[0.046s] -- Install configuration: ""
+[0.046s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/launch
+[0.046s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/launch/phantomx_control.launch.py
+[0.046s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/config
+[0.046s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/config/phantomx_control.yaml
+[0.046s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/package_run_dependencies/phantomx_control
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/parent_prefix_path/phantomx_control
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/ament_prefix_path.sh
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/ament_prefix_path.dsv
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/path.sh
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/path.dsv
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.bash
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.sh
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.zsh
+[0.047s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.dsv
+[0.048s] -- Installing: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.dsv
+[0.049s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/packages/phantomx_control
+[0.049s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/cmake/phantomx_controlConfig.cmake
+[0.050s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/cmake/phantomx_controlConfig-version.cmake
+[0.050s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.xml
+[0.050s] Invoked command in '/home/max/hexapod_ws/build/phantomx_control' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_control

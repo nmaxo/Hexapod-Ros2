@@ -1,0 +1,38 @@
+Built target ament_cmake_python_copy_connections_api
+running egg_info
+writing connections_api.egg-info/PKG-INFO
+writing dependency_links to connections_api.egg-info/dependency_links.txt
+writing top-level names to connections_api.egg-info/top_level.txt
+reading manifest file 'connections_api.egg-info/SOURCES.txt'
+writing manifest file 'connections_api.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_connections_api_egg
+-- Install configuration: ""
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/pythonpath.sh
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/pythonpath.dsv
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/__init__.py
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/phantomx.py
+Listing '/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api'...
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo//launch
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo//launch/phantomx_gazebo.launch.py
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/walker
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/package_run_dependencies/phantomx_gazebo
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/parent_prefix_path/phantomx_gazebo
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/path.sh
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/path.dsv
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.bash
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.sh
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.zsh
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.dsv
+-- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.dsv
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/packages/phantomx_gazebo
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/cmake/phantomx_gazeboConfig.cmake
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/cmake/phantomx_gazeboConfig-version.cmake
+-- Up-to-date: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.xml

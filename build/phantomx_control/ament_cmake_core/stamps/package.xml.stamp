@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>phantomx_control</name>
+  <version>1.0.0</version>
+  <description>The phantomx_control package for ROS 2</description>
+
+  <maintainer email="pc@humarobotics.com">Philippe Capdepuy</maintainer>
+  <license>BSD</license>
+  <author email="pc@humarobotics.com">Philippe Capdepuy</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>phantomx_description</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>
+  <depend>controller_manager</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

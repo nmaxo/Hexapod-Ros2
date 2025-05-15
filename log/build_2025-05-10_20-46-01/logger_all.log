@@ -1,0 +1,365 @@
+[0.162s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'phantomx_gazebo', 'phantomx_description', 'phantomx_control', 'joint_state_publisher_gui']
+[0.162s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['phantomx_gazebo', 'phantomx_description', 'phantomx_control', 'joint_state_publisher_gui'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9bad10afb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9bad10bf70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9bad10bf70>>, mixin_verb=('build',))
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/max/hexapod_ws'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'joint_state_publisher/joint_state_publisher' with type 'ros.ament_python' and name 'joint_state_publisher'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(joint_state_publisher/joint_state_publisher_gui) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'joint_state_publisher/joint_state_publisher_gui' with type 'ros.ament_python' and name 'joint_state_publisher_gui'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexapod) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexapod' with type 'ros.ament_python' and name 'hexapod'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_control) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantomx_control' with type 'ros.ament_cmake' and name 'phantomx_control'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_description) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantomx_description' with type 'ros.ament_cmake' and name 'phantomx_description'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantomx_gazebo) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantomx_gazebo' with type 'ros.ament_cmake' and name 'phantomx_gazebo'
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.379s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'custom_interfaces'
+[0.379s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joint_state_publisher' in 'joint_state_publisher/joint_state_publisher'
+[0.379s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hexapod' in 'src/hexapod'
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.383s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/max/hexapod_ws/install
+[0.383s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/max/ros2_ws/install
+[0.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'phantomx_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'phantomx_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/hexapod_ws/build/phantomx_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/hexapod_ws/install/phantomx_description', 'merge_install': False, 'path': '/home/max/hexapod_ws/src/phantomx_description', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_publisher_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/hexapod_ws/build/joint_state_publisher_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/hexapod_ws/install/joint_state_publisher_gui', 'merge_install': False, 'path': '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher_gui', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'phantomx_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/hexapod_ws/build/phantomx_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/hexapod_ws/install/phantomx_control', 'merge_install': False, 'path': '/home/max/hexapod_ws/src/phantomx_control', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'phantomx_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'phantomx_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/hexapod_ws/build/phantomx_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/hexapod_ws/install/phantomx_gazebo', 'merge_install': False, 'path': '/home/max/hexapod_ws/src/phantomx_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.424s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/hexapod_ws/src/phantomx_description' with build type 'ament_cmake'
+[0.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/hexapod_ws/src/phantomx_description'
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher_gui' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_gui', 'ament_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.sh'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_description -- -j8 -l8
+[0.691s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher_gui'
+[0.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_description -- -j8 -l8
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_description
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_description)
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_description
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description' for CMake module files
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description' for CMake config files
+[0.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_description', 'cmake_prefix_path')
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.sh'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/bin'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/lib/pkgconfig/phantomx_description.pc'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/lib/python3.10/site-packages'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/bin'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.bash'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_description/share/colcon-core/packages/phantomx_description)
+[0.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_description)
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description' for CMake module files
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_description', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/lib/pkgconfig/phantomx_description.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_description/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_description/share/colcon-core/packages/phantomx_description)
+[0.745s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/hexapod_ws/src/phantomx_control' with build type 'ament_cmake'
+[0.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/hexapod_ws/src/phantomx_control'
+[0.746s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_control': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_control -- -j8 -l8
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_control' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_control -- -j8 -l8
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_control': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_control
+[0.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_control)
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control' for CMake module files
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_control' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_control
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_control', 'cmake_prefix_path')
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/bin'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/lib/pkgconfig/phantomx_control.pc'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/lib/python3.10/site-packages'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/bin'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.sh'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_control/share/colcon-core/packages/phantomx_control)
+[0.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_control)
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control' for CMake module files
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_control', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/bin'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/lib/pkgconfig/phantomx_control.pc'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/lib/python3.10/site-packages'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_control/bin'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.sh'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.bash'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.zsh'
+[0.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_control/share/colcon-core/packages/phantomx_control)
+[0.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/hexapod_ws/src/phantomx_gazebo' with build type 'ament_cmake'
+[0.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/hexapod_ws/src/phantomx_gazebo'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_gazebo': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_gazebo -- -j8 -l8
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher_gui': AMENT_PREFIX_PATH=/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble PYTHONPATH=/home/max/hexapod_ws/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/talker/lib/python3.8/site-packages:/home/max/ros2_ws/install/my_turtle_controller/lib/python3.8/site-packages:/home/max/ros2_ws/install/listener/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_gui build --build-base /home/max/hexapod_ws/build/joint_state_publisher_gui/build install --record /home/max/hexapod_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_gazebo -- -j8 -l8
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/hexapod_ws/build/phantomx_gazebo': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_gazebo
+[1.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_gazebo)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo' for CMake module files
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/build/phantomx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_gazebo
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_gazebo', 'cmake_prefix_path')
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/bin'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib/pkgconfig/phantomx_gazebo.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib/python3.10/site-packages'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/bin'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.zsh'
+[1.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_gazebo/share/colcon-core/packages/phantomx_gazebo)
+[1.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantomx_gazebo)
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo' for CMake module files
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo' for CMake config files
+[1.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantomx_gazebo', 'cmake_prefix_path')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/hook/cmake_prefix_path.sh'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/bin'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib/pkgconfig/phantomx_gazebo.pc'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/lib/python3.10/site-packages'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/phantomx_gazebo/bin'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.sh'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.bash'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.zsh'
+[1.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/phantomx_gazebo/share/colcon-core/packages/phantomx_gazebo)
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui' for CMake module files
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher_gui' returned '0': AMENT_PREFIX_PATH=/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble PYTHONPATH=/home/max/hexapod_ws/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages:/home/max/ros2_ws/install/talker/lib/python3.8/site-packages:/home/max/ros2_ws/install/my_turtle_controller/lib/python3.8/site-packages:/home/max/ros2_ws/install/listener/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_gui build --build-base /home/max/hexapod_ws/build/joint_state_publisher_gui/build install --record /home/max/hexapod_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui' for CMake config files
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui/lib'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui/bin'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui/lib/pkgconfig/joint_state_publisher_gui.pc'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages'
+[1.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_gui', 'pythonpath')
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.sh'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/max/hexapod_ws/install/joint_state_publisher_gui/bin'
+[1.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_state_publisher_gui)
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.sh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.bash'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/hexapod_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.zsh'
+[1.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/hexapod_ws/install/joint_state_publisher_gui/share/colcon-core/packages/joint_state_publisher_gui)
+[1.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.609s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.620s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.629s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/hexapod_ws/install/local_setup.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/hexapod_ws/install/_local_setup_util_ps1.py'
+[1.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/hexapod_ws/install/setup.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/hexapod_ws/install/local_setup.sh'
+[1.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/hexapod_ws/install/_local_setup_util_sh.py'
+[1.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/hexapod_ws/install/setup.sh'
+[1.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/hexapod_ws/install/local_setup.bash'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/hexapod_ws/install/setup.bash'
+[1.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/hexapod_ws/install/local_setup.zsh'
+[1.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/hexapod_ws/install/setup.zsh'

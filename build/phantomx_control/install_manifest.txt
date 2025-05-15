@@ -1,0 +1,17 @@
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/launch/phantomx_control.launch.py
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/config/phantomx_control.yaml
+/home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/package_run_dependencies/phantomx_control
+/home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/parent_prefix_path/phantomx_control
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/ament_prefix_path.sh
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/ament_prefix_path.dsv
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/path.sh
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/environment/path.dsv
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.bash
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.sh
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.zsh
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/local_setup.dsv
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.dsv
+/home/max/hexapod_ws/install/phantomx_control/share/ament_index/resource_index/packages/phantomx_control
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/cmake/phantomx_controlConfig.cmake
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/cmake/phantomx_controlConfig-version.cmake
+/home/max/hexapod_ws/install/phantomx_control/share/phantomx_control/package.xml

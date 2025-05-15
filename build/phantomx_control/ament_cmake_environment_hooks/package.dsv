@@ -1,0 +1,4 @@
+source;share/phantomx_control/local_setup.bash
+source;share/phantomx_control/local_setup.dsv
+source;share/phantomx_control/local_setup.sh
+source;share/phantomx_control/local_setup.zsh

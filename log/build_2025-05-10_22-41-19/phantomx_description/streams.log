@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/max/hexapod_ws/build/phantomx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_description -- -j8 -l8
+[0.308s] Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_description -- -j8 -l8
+[0.317s] Invoking command in '/home/max/hexapod_ws/build/phantomx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_description
+[0.323s] -- Install configuration: ""
+[0.323s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/urdf
+[0.323s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/urdf/phantomx.xacro
+[0.323s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/urdf/phantomx.urdf
+[0.323s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/urdf/phantomx_urdf.xacro
+[0.323s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/launch
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/launch/display.launch.py
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/tibia_l_coll.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/connect.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/connect_coll.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/body_coll.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/tibia_l.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/thigh_r.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/thigh_l_coll.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/thigh_l.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/body.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/meshes/tibia_r.STL
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/ament_index/resource_index/package_run_dependencies/phantomx_description
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/ament_index/resource_index/parent_prefix_path/phantomx_description
+[0.324s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/environment/ament_prefix_path.sh
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/environment/ament_prefix_path.dsv
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/environment/path.sh
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/environment/path.dsv
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/local_setup.bash
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/local_setup.sh
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/local_setup.zsh
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/local_setup.dsv
+[0.325s] -- Installing: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.dsv
+[0.325s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/ament_index/resource_index/packages/phantomx_description
+[0.326s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/cmake/phantomx_descriptionConfig.cmake
+[0.326s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/cmake/phantomx_descriptionConfig-version.cmake
+[0.326s] -- Up-to-date: /home/max/hexapod_ws/install/phantomx_description/share/phantomx_description/package.xml
+[0.327s] Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_description

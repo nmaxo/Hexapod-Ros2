@@ -1,0 +1,6 @@
+Invoking command in '/home/max/hexapod_ws/src/build/interfaces': /usr/bin/cmake /home/max/hexapod_ws/src/interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/src/install/interfaces
+Invoked command in '/home/max/hexapod_ws/src/build/interfaces' returned '0': /usr/bin/cmake /home/max/hexapod_ws/src/interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/src/install/interfaces
+Invoking command in '/home/max/hexapod_ws/src/build/interfaces': /usr/bin/cmake --build /home/max/hexapod_ws/src/build/interfaces -- -j8 -l8
+Invoked command in '/home/max/hexapod_ws/src/build/interfaces' returned '0': /usr/bin/cmake --build /home/max/hexapod_ws/src/build/interfaces -- -j8 -l8
+Invoking command in '/home/max/hexapod_ws/src/build/interfaces': /usr/bin/cmake --install /home/max/hexapod_ws/src/build/interfaces
+Invoked command in '/home/max/hexapod_ws/src/build/interfaces' returned '0': /usr/bin/cmake --install /home/max/hexapod_ws/src/build/interfaces

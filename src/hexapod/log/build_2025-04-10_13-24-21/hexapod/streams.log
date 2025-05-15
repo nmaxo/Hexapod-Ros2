@@ -1,0 +1,46 @@
+[0.446s] Invoking command in '/home/max/hexapod_ws/src/hexapod': PYTHONPATH=/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hexapod build --build-base /home/max/hexapod_ws/src/build/hexapod/build install --record /home/max/hexapod_ws/src/build/hexapod/install.log --install-scripts $base/lib/hexapod --single-version-externally-managed install_data
+[0.613s] running egg_info
+[0.613s] creating ../build/hexapod/hexapod.egg-info
+[0.614s] writing ../build/hexapod/hexapod.egg-info/PKG-INFO
+[0.614s] writing dependency_links to ../build/hexapod/hexapod.egg-info/dependency_links.txt
+[0.614s] writing entry points to ../build/hexapod/hexapod.egg-info/entry_points.txt
+[0.614s] writing requirements to ../build/hexapod/hexapod.egg-info/requires.txt
+[0.614s] writing top-level names to ../build/hexapod/hexapod.egg-info/top_level.txt
+[0.615s] writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'
+[0.640s] reading manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'
+[0.640s] writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'
+[0.640s] running build
+[0.640s] running build_py
+[0.641s] creating /home/max/hexapod_ws/src/build/hexapod/build
+[0.641s] creating /home/max/hexapod_ws/src/build/hexapod/build/lib
+[0.641s] creating /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod
+[0.641s] copying hexapod/leg_controller.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod
+[0.641s] copying hexapod/coordintaor.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod
+[0.641s] copying hexapod/__init__.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod
+[0.641s] copying hexapod/Ax18.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod
+[0.641s] running install
+[0.641s] running install_lib
+[0.642s] creating /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod
+[0.642s] copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/leg_controller.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod
+[0.642s] copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/coordintaor.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod
+[0.642s] copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/__init__.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod
+[0.642s] copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/Ax18.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod
+[0.642s] byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/leg_controller.py to leg_controller.cpython-38.pyc
+[0.644s] byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/coordintaor.py to coordintaor.cpython-38.pyc
+[0.644s] byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/__init__.py to __init__.cpython-38.pyc
+[0.644s] byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/Ax18.py to Ax18.cpython-38.pyc
+[0.646s] running install_data
+[0.646s] creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index
+[0.646s] creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index
+[0.646s] creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index/packages
+[0.646s] copying resource/hexapod -> /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index/packages
+[0.647s] copying package.xml -> /home/max/hexapod_ws/src/install/hexapod/share/hexapod
+[0.647s] creating /home/max/hexapod_ws/src/install/hexapod/share/hexapod/msg
+[0.647s] running install_egg_info
+[0.647s] Copying ../build/hexapod/hexapod.egg-info to /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info
+[0.648s] running install_scripts
+[0.660s] Installing coordinator script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.660s] Installing leg_controller script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.660s] Installing sensor_node script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod
+[0.660s] writing list of installed files to '/home/max/hexapod_ws/src/build/hexapod/install.log'
+[0.677s] Invoked command in '/home/max/hexapod_ws/src/hexapod' returned '0': PYTHONPATH=/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hexapod build --build-base /home/max/hexapod_ws/src/build/hexapod/build install --record /home/max/hexapod_ws/src/build/hexapod/install.log --install-scripts $base/lib/hexapod --single-version-externally-managed install_data

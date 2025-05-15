@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000491] (hexapod) JobQueued: {'identifier': 'hexapod', 'dependencies': OrderedDict()}
+[0.000759] (hexapod) JobStarted: {'identifier': 'hexapod'}
+[0.099507] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.300554] (-) TimerEvent: {}
+[0.401036] (-) TimerEvent: {}
+[0.445729] (hexapod) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/hexapod', 'build', '--build-base', '/home/max/hexapod_ws/src/build/hexapod/build', 'install', '--record', '/home/max/hexapod_ws/src/build/hexapod/install.log', '--install-scripts', '$base/lib/hexapod', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/max/hexapod_ws/src/hexapod', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'max', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1096', 'XDG_SESSION_TYPE': 'x11', 'KONSOLE_VERSION': '191203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'OLDPWD': '/home/max/hexapod_ws/src/interfaces', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '52601bb2ec2548bd87930fe2d5e5ae37', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'KDED_STARTED_BY_KDEINIT': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'COLCON_PREFIX_PATH': '/home/max/hexapod_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'WINDOWID': '88080391', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '0;15', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth-1000-_0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-tD2cAGD93cP0/agent.1041', 'AMENT_PREFIX_PATH': '/home/max/hexapod_ws/install/hexapod:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.157', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '1', 'PWD': '/home/max/hexapod_ws/src/build/hexapod', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:/home/max/hexapod_ws/install/hexapod/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1'}, 'shell': False}
+[0.501227] (-) TimerEvent: {}
+[0.601713] (-) TimerEvent: {}
+[0.613807] (hexapod) StdoutLine: {'line': b'running egg_info\n'}
+[0.614158] (hexapod) StdoutLine: {'line': b'creating ../build/hexapod/hexapod.egg-info\n'}
+[0.614360] (hexapod) StdoutLine: {'line': b'writing ../build/hexapod/hexapod.egg-info/PKG-INFO\n'}
+[0.614520] (hexapod) StdoutLine: {'line': b'writing dependency_links to ../build/hexapod/hexapod.egg-info/dependency_links.txt\n'}
+[0.614629] (hexapod) StdoutLine: {'line': b'writing entry points to ../build/hexapod/hexapod.egg-info/entry_points.txt\n'}
+[0.614701] (hexapod) StdoutLine: {'line': b'writing requirements to ../build/hexapod/hexapod.egg-info/requires.txt\n'}
+[0.614776] (hexapod) StdoutLine: {'line': b'writing top-level names to ../build/hexapod/hexapod.egg-info/top_level.txt\n'}
+[0.615682] (hexapod) StdoutLine: {'line': b"writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'\n"}
+[0.640387] (hexapod) StdoutLine: {'line': b"reading manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'\n"}
+[0.640958] (hexapod) StdoutLine: {'line': b"writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'\n"}
+[0.641109] (hexapod) StdoutLine: {'line': b'running build\n'}
+[0.641212] (hexapod) StdoutLine: {'line': b'running build_py\n'}
+[0.641296] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/build/hexapod/build\n'}
+[0.641398] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/build/hexapod/build/lib\n'}
+[0.641481] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod\n'}
+[0.641563] (hexapod) StdoutLine: {'line': b'copying hexapod/leg_controller.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod\n'}
+[0.641653] (hexapod) StdoutLine: {'line': b'copying hexapod/coordintaor.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod\n'}
+[0.641723] (hexapod) StdoutLine: {'line': b'copying hexapod/__init__.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod\n'}
+[0.641792] (hexapod) StdoutLine: {'line': b'copying hexapod/Ax18.py -> /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod\n'}
+[0.641865] (hexapod) StdoutLine: {'line': b'running install\n'}
+[0.642068] (hexapod) StdoutLine: {'line': b'running install_lib\n'}
+[0.642665] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod\n'}
+[0.642790] (hexapod) StdoutLine: {'line': b'copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/leg_controller.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod\n'}
+[0.642927] (hexapod) StdoutLine: {'line': b'copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/coordintaor.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod\n'}
+[0.643006] (hexapod) StdoutLine: {'line': b'copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/__init__.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod\n'}
+[0.643083] (hexapod) StdoutLine: {'line': b'copying /home/max/hexapod_ws/src/build/hexapod/build/lib/hexapod/Ax18.py -> /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod\n'}
+[0.643177] (hexapod) StdoutLine: {'line': b'byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/leg_controller.py to leg_controller.cpython-38.pyc\n'}
+[0.644501] (hexapod) StdoutLine: {'line': b'byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/coordintaor.py to coordintaor.cpython-38.pyc\n'}
+[0.645039] (hexapod) StdoutLine: {'line': b'byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/__init__.py to __init__.cpython-38.pyc\n'}
+[0.645116] (hexapod) StdoutLine: {'line': b'byte-compiling /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod/Ax18.py to Ax18.cpython-38.pyc\n'}
+[0.646762] (hexapod) StdoutLine: {'line': b'running install_data\n'}
+[0.647025] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index\n'}
+[0.647121] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index\n'}
+[0.647185] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index/packages\n'}
+[0.647248] (hexapod) StdoutLine: {'line': b'copying resource/hexapod -> /home/max/hexapod_ws/src/install/hexapod/share/ament_index/resource_index/packages\n'}
+[0.647313] (hexapod) StdoutLine: {'line': b'copying package.xml -> /home/max/hexapod_ws/src/install/hexapod/share/hexapod\n'}
+[0.647375] (hexapod) StdoutLine: {'line': b'creating /home/max/hexapod_ws/src/install/hexapod/share/hexapod/msg\n'}
+[0.647439] (hexapod) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.648181] (hexapod) StdoutLine: {'line': b'Copying ../build/hexapod/hexapod.egg-info to /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info\n'}
+[0.648660] (hexapod) StdoutLine: {'line': b'running install_scripts\n'}
+[0.660402] (hexapod) StdoutLine: {'line': b'Installing coordinator script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[0.660606] (hexapod) StdoutLine: {'line': b'Installing leg_controller script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[0.660705] (hexapod) StdoutLine: {'line': b'Installing sensor_node script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[0.660817] (hexapod) StdoutLine: {'line': b"writing list of installed files to '/home/max/hexapod_ws/src/build/hexapod/install.log'\n"}
+[0.677657] (hexapod) CommandEnded: {'returncode': 0}
+[0.684811] (hexapod) JobEnded: {'identifier': 'hexapod', 'rc': 0}
+[0.685417] (-) EventReactorShutdown: {}

@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000188] (hexapod) JobQueued: {'identifier': 'hexapod', 'dependencies': OrderedDict([('interfaces', '/home/max/hexapod_ws/src/install/interfaces')])}
+[0.000345] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.007657] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.008054] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/max/hexapod_ws/src/interfaces', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/src/install/interfaces'], 'cwd': '/home/max/hexapod_ws/src/build/interfaces', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'max'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('ROS_PACKAGE_PATH', '/home/max/hexapod_ws/install/interfaces/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('KONSOLE_VERSION', '191203'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/max/hexapod_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/max/hexapod_ws'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '25b5420638384b8699da1bedd44f3682'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('KDED_STARTED_BY_KDEINIT', '1'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('COLCON_PREFIX_PATH', '/home/max/hexapod_ws/install:/home/max/hexapod_ws/src/interfaces/msg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/max/hexapod_ws/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/install/interfaces/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '0;15'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/max/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-55c56fdd3b9966db.txt'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/tmp/xauth-1000-_0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54fec1bea4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-tD2cAGD93cP0/agent.1041'), ('AMENT_PREFIX_PATH', '/home/max/hexapod_ws/install/hexapod:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/max/hexapod_ws/src/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/hexapod_ws/install/interfaces/lib/python3.8/site-packages:/home/max/hexapod_ws/install/hexapod/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/max/hexapod_ws/install/interfaces')]), 'shell': False}
+[0.053739] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.091631] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.094728] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099625] (-) TimerEvent: {}
+[0.143457] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.144539] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199821] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199987] (-) TimerEvent: {}
+[0.213766] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213973] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.215790] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.274020] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.275116] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300168] (-) TimerEvent: {}
+[0.333072] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.342709] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.343113] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.345153] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.362397] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.362607] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400281] (-) TimerEvent: {}
+[0.500582] (-) TimerEvent: {}
+[0.505077] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.507398] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.511982] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.584420] (interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.600695] (-) TimerEvent: {}
+[0.607301] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.670268] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.689388] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.700800] (-) TimerEvent: {}
+[0.760338] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.800907] (-) TimerEvent: {}
+[0.901242] (-) TimerEvent: {}
+[0.904460] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.001353] (-) TimerEvent: {}
+[1.083477] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101508] (-) TimerEvent: {}
+[1.164109] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.182252] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.183078] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.201366] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.201575] (-) TimerEvent: {}
+[1.201682] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.201770] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.201847] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.219953] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.276745] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.289399] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.291711] (interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.292233] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.292614] (interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.293834] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.297380] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301756] (-) TimerEvent: {}
+[1.336510] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.338170] (interfaces) StderrLine: {'line': b'CMake Warning:\n'}
+[1.338296] (interfaces) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.338344] (interfaces) StderrLine: {'line': b'\n'}
+[1.338388] (interfaces) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.338431] (interfaces) StderrLine: {'line': b'\n'}
+[1.338473] (interfaces) StderrLine: {'line': b'\n'}
+[1.350439] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/max/hexapod_ws/src/build/interfaces\n'}
+[1.357309] (interfaces) CommandEnded: {'returncode': 0}
+[1.357982] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[1.358565] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/hexapod_ws/src/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/max/hexapod_ws/src/build/interfaces', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'max'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('ROS_PACKAGE_PATH', '/home/max/hexapod_ws/install/interfaces/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('KONSOLE_VERSION', '191203'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/max/hexapod_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/max/hexapod_ws'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '25b5420638384b8699da1bedd44f3682'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('KDED_STARTED_BY_KDEINIT', '1'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('COLCON_PREFIX_PATH', '/home/max/hexapod_ws/install:/home/max/hexapod_ws/src/interfaces/msg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/max/hexapod_ws/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/install/interfaces/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '0;15'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/max/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-55c56fdd3b9966db.txt'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/tmp/xauth-1000-_0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54fec1bea4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-tD2cAGD93cP0/agent.1041'), ('AMENT_PREFIX_PATH', '/home/max/hexapod_ws/install/hexapod:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/max/hexapod_ws/src/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/hexapod_ws/install/interfaces/lib/python3.8/site-packages:/home/max/hexapod_ws/install/hexapod/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/max/hexapod_ws/install/interfaces')]), 'shell': False}
+[1.389396] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.389581] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[1.397593] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.401943] (-) TimerEvent: {}
+[1.502283] (-) TimerEvent: {}
+[1.602552] (-) TimerEvent: {}
+[1.702973] (-) TimerEvent: {}
+[1.739097] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[1.752203] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.753171] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.756246] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.759790] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.773488] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/leg_command__functions.c.o\x1b[0m\n'}
+[1.775527] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/leg_status__functions.c.o\x1b[0m\n'}
+[1.775822] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sensor_data__functions.c.o\x1b[0m\n'}
+[1.803083] (-) TimerEvent: {}
+[1.837868] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.872999] (interfaces) StdoutLine: {'line': b'[ 19%] Built target interfaces__rosidl_generator_c\n'}
+[1.883706] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.886656] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.903180] (-) TimerEvent: {}
+[2.003492] (-) TimerEvent: {}
+[2.028389] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.046414] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/leg_command__type_support.cpp.o\x1b[0m\n'}
+[2.046687] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.047438] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/leg_status__type_support.cpp.o\x1b[0m\n'}
+[2.103596] (-) TimerEvent: {}
+[2.106071] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.145399] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/leg_status__type_support.cpp.o\x1b[0m\n'}
+[2.162727] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/leg_command__type_support.cpp.o\x1b[0m\n'}
+[2.203709] (-) TimerEvent: {}
+[2.226852] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.287212] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/leg_command__type_support.cpp.o\x1b[0m\n'}
+[2.303934] (-) TimerEvent: {}
+[2.374758] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.394046] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/leg_command__type_support.cpp.o\x1b[0m\n'}
+[2.404059] (-) TimerEvent: {}
+[2.438106] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/leg_status__type_support.cpp.o\x1b[0m\n'}
+[2.464771] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.482893] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.504183] (-) TimerEvent: {}
+[2.504910] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.510302] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/leg_command__type_support.c.o\x1b[0m\n'}
+[2.523570] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/leg_status__type_support.c.o\x1b[0m\n'}
+[2.524450] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.553633] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.571623] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[2.572486] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/leg_status__type_support.cpp.o\x1b[0m\n'}
+[2.599626] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.601320] (interfaces) StdoutLine: {'line': b'[ 59%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.604715] (-) TimerEvent: {}
+[2.614433] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.619627] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.663151] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.704844] (-) TimerEvent: {}
+[2.805245] (-) TimerEvent: {}
+[2.819786] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.897094] (interfaces) StdoutLine: {'line': b'[ 63%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.905425] (-) TimerEvent: {}
+[3.005811] (-) TimerEvent: {}
+[3.010989] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.093930] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.103266] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.105904] (-) TimerEvent: {}
+[3.206217] (-) TimerEvent: {}
+[3.306544] (-) TimerEvent: {}
+[3.406857] (-) TimerEvent: {}
+[3.407656] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.423582] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/leg_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.423887] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/leg_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.425583] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/sensor_data__type_support_c.cpp.o\x1b[0m\n'}
+[3.506967] (-) TimerEvent: {}
+[3.607364] (-) TimerEvent: {}
+[3.707701] (-) TimerEvent: {}
+[3.746013] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.807822] (-) TimerEvent: {}
+[3.830985] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.840812] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces\x1b[0m\n'}
+[3.850575] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces\n'}
+[3.860336] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[3.870757] (interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.907988] (-) TimerEvent: {}
+[4.008266] (-) TimerEvent: {}
+[4.108552] (-) TimerEvent: {}
+[4.208899] (-) TimerEvent: {}
+[4.309198] (-) TimerEvent: {}
+[4.409506] (-) TimerEvent: {}
+[4.435366] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__py\n'}
+[4.445175] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[4.465677] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_leg_status_s.c.o\x1b[0m\n'}
+[4.465936] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_sensor_data_s.c.o\x1b[0m\n'}
+[4.467445] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_leg_command_s.c.o\x1b[0m\n'}
+[4.509711] (-) TimerEvent: {}
+[4.554923] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[4.598043] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__python\n'}
+[4.607781] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.608090] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.608193] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.609778] (-) TimerEvent: {}
+[4.625487] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.625968] (interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.635827] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.709912] (-) TimerEvent: {}
+[4.711876] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.712199] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.723694] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.755267] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.767256] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[4.789624] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.801651] (interfaces) CommandEnded: {'returncode': 0}
+[4.802826] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.810053] (-) TimerEvent: {}
+[4.814209] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/hexapod_ws/src/build/interfaces'], 'cwd': '/home/max/hexapod_ws/src/build/interfaces', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'max'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('ROS_PACKAGE_PATH', '/home/max/hexapod_ws/install/interfaces/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('KONSOLE_VERSION', '191203'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/max/hexapod_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/max/hexapod_ws'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '25b5420638384b8699da1bedd44f3682'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('KDED_STARTED_BY_KDEINIT', '1'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('COLCON_PREFIX_PATH', '/home/max/hexapod_ws/install:/home/max/hexapod_ws/src/interfaces/msg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/max/hexapod_ws/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/install/interfaces/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '0;15'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/max/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-55c56fdd3b9966db.txt'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/tmp/xauth-1000-_0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54fec1bea4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-tD2cAGD93cP0/agent.1041'), ('AMENT_PREFIX_PATH', '/home/max/hexapod_ws/install/hexapod:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.52'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/max/hexapod_ws/src/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/hexapod_ws/install/interfaces/lib/python3.8/site-packages:/home/max/hexapod_ws/install/hexapod/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/max/hexapod_ws/install/interfaces')]), 'shell': False}
+[4.825411] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.825732] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[4.825893] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.826025] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.826153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.826280] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__struct.h\n'}
+[4.826411] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__functions.c\n'}
+[4.826530] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__functions.c\n'}
+[4.826661] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__struct.h\n'}
+[4.826792] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__type_support.h\n'}
+[4.826922] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__struct.h\n'}
+[4.827048] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__functions.h\n'}
+[4.827178] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__functions.h\n'}
+[4.827282] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__type_support.h\n'}
+[4.827430] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__functions.c\n'}
+[4.827561] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__functions.h\n'}
+[4.827752] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__type_support.h\n'}
+[4.827947] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/leg_status.h\n'}
+[4.828136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/leg_command.h\n'}
+[4.828296] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.828465] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/sensor_data.h\n'}
+[4.828600] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[4.828734] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[4.828939] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[4.829146] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[4.829335] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.829499] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.829664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.829804] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.829954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__rosidl_typesupport_fastrtps_c.h\n'}
+[4.830128] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.830321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.830522] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.830720] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.830954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.831151] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.831323] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.831466] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.831631] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.831810] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[4.831954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.832097] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.832389] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.832589] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.832804] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.833128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.833248] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.833402] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.833496] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__rosidl_typesupport_introspection_c.h\n'}
+[4.833648] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[4.833804] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__type_support.c\n'}
+[4.833936] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__rosidl_typesupport_introspection_c.h\n'}
+[4.834094] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__type_support.c\n'}
+[4.834228] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__type_support.c\n'}
+[4.834329] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.834527] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.834674] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[4.834811] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.835012] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.835155] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.835260] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/leg_command.hpp\n'}
+[4.835400] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/leg_status.hpp\n'}
+[4.835497] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.835610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__traits.hpp\n'}
+[4.835739] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__builder.hpp\n'}
+[4.835838] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__type_support.hpp\n'}
+[4.835963] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__traits.hpp\n'}
+[4.836177] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__builder.hpp\n'}
+[4.836319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__traits.hpp\n'}
+[4.836444] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__struct.hpp\n'}
+[4.836590] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__struct.hpp\n'}
+[4.836786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__builder.hpp\n'}
+[4.836979] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__struct.hpp\n'}
+[4.837146] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__type_support.hpp\n'}
+[4.837277] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__type_support.hpp\n'}
+[4.837410] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.837492] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/sensor_data.hpp\n'}
+[4.837572] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces\n'}
+[4.837652] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg\n'}
+[4.837729] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail\n'}
+[4.837807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__type_support.cpp\n'}
+[4.837869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__type_support.cpp\n'}
+[4.837931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.837997] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.838066] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/sensor_data__type_support.cpp\n'}
+[4.838153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/include/interfaces/msg/detail/leg_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.838227] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.838300] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.838368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[4.838431] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.838495] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[4.838558] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[4.838619] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[4.870641] (interfaces) StdoutLine: {'line': b"Compiling '/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[4.875157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[4.875423] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_leg_status.py\n'}
+[4.875549] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[4.875650] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_sensor_data_s.c\n'}
+[4.875714] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_leg_status_s.c\n'}
+[4.875775] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_sensor_data.py\n'}
+[4.875841] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_leg_command_s.c\n'}
+[4.875907] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_leg_command.py\n'}
+[4.875988] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.876390] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.876593] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.877302] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.877486] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.877693] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.877842] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__python.so\n'}
+[4.878065] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/hexapod_ws/src/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[4.878165] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/LegCommand.idl\n'}
+[4.878269] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/LegStatus.idl\n'}
+[4.878373] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/SensorData.idl\n'}
+[4.878476] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/LegCommand.msg\n'}
+[4.878579] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/LegStatus.msg\n'}
+[4.878681] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/msg/SensorData.msg\n'}
+[4.878846] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.879008] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.879121] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.879230] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.879338] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.879443] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.879549] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.879655] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.879762] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.879864] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.879964] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/package.dsv\n'}
+[4.880111] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.880285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[4.880405] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.880570] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.880687] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.880838] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.880952] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.881099] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.881261] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.881380] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.881541] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.881663] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.881775] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.881883] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.881991] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.882127] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.882267] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.882437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.882564] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.882656] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.882767] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.882856] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/hexapod_ws/src/install/interfaces/share/interfaces/package.xml\n'}
+[4.885352] (interfaces) CommandEnded: {'returncode': 0}
+[4.910256] (-) TimerEvent: {}
+[4.912078] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.913212] (hexapod) JobStarted: {'identifier': 'hexapod'}
+[5.010425] (-) TimerEvent: {}
+[5.114957] (-) TimerEvent: {}
+[5.215393] (-) TimerEvent: {}
+[5.315919] (-) TimerEvent: {}
+[5.416286] (-) TimerEvent: {}
+[5.516581] (-) TimerEvent: {}
+[5.585795] (hexapod) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/hexapod', 'build', '--build-base', '/home/max/hexapod_ws/src/build/hexapod/build', 'install', '--record', '/home/max/hexapod_ws/src/build/hexapod/install.log', '--install-scripts', '$base/lib/hexapod', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/max/hexapod_ws/src/hexapod', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'USER': 'max', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1096', 'ROS_PACKAGE_PATH': '/home/max/hexapod_ws/src/install/interfaces/share:/home/max/hexapod_ws/install/interfaces/share', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'KONSOLE_VERSION': '191203', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/max/hexapod_ws/src/install/interfaces/lib:/home/max/hexapod_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/max/hexapod_ws', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '25b5420638384b8699da1bedd44f3682', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'KDED_STARTED_BY_KDEINIT': '1', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'COLCON_PREFIX_PATH': '/home/max/hexapod_ws/install:/home/max/hexapod_ws/src/interfaces/msg/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'WINDOWID': '62914567', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/max/hexapod_ws/src/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/src/install/interfaces/lib/pkgconfig:/home/max/hexapod_ws/install/interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/max/hexapod_ws/install/interfaces/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '0;15', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/max/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/max/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-55c56fdd3b9966db.txt', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth-1000-_0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-54fec1bea4.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-tD2cAGD93cP0/agent.1041', 'AMENT_PREFIX_PATH': '/home/max/hexapod_ws/install/hexapod:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'KDE', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.52', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'XDG_VTNR': '1', 'PWD': '/home/max/hexapod_ws/src/build/hexapod', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/hexapod_ws/src/build/hexapod/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages:/home/max/hexapod_ws/src/install/interfaces/lib/python3.8/site-packages:/home/max/hexapod_ws/install/interfaces/lib/python3.8/site-packages:/home/max/hexapod_ws/install/hexapod/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/max/hexapod_ws/src/install/interfaces:/home/max/hexapod_ws/install/interfaces'}, 'shell': False}
+[5.616689] (-) TimerEvent: {}
+[5.717010] (-) TimerEvent: {}
+[5.797828] (hexapod) StdoutLine: {'line': b'running egg_info\n'}
+[5.798269] (hexapod) StdoutLine: {'line': b'writing ../build/hexapod/hexapod.egg-info/PKG-INFO\n'}
+[5.798500] (hexapod) StdoutLine: {'line': b'writing dependency_links to ../build/hexapod/hexapod.egg-info/dependency_links.txt\n'}
+[5.798681] (hexapod) StdoutLine: {'line': b'writing entry points to ../build/hexapod/hexapod.egg-info/entry_points.txt\n'}
+[5.798806] (hexapod) StdoutLine: {'line': b'writing requirements to ../build/hexapod/hexapod.egg-info/requires.txt\n'}
+[5.798911] (hexapod) StdoutLine: {'line': b'writing top-level names to ../build/hexapod/hexapod.egg-info/top_level.txt\n'}
+[5.817103] (-) TimerEvent: {}
+[5.834598] (hexapod) StdoutLine: {'line': b"reading manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'\n"}
+[5.835641] (hexapod) StdoutLine: {'line': b"writing manifest file '../build/hexapod/hexapod.egg-info/SOURCES.txt'\n"}
+[5.835809] (hexapod) StdoutLine: {'line': b'running build\n'}
+[5.835886] (hexapod) StdoutLine: {'line': b'running build_py\n'}
+[5.836332] (hexapod) StdoutLine: {'line': b'running install\n'}
+[5.837544] (hexapod) StdoutLine: {'line': b'running install_lib\n'}
+[5.839210] (hexapod) StdoutLine: {'line': b'running install_data\n'}
+[5.839364] (hexapod) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.841285] (hexapod) StdoutLine: {'line': b"removing '/home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.841432] (hexapod) StdoutLine: {'line': b'Copying ../build/hexapod/hexapod.egg-info to /home/max/hexapod_ws/src/install/hexapod/lib/python3.8/site-packages/hexapod-0.0.0-py3.8.egg-info\n'}
+[5.842303] (hexapod) StdoutLine: {'line': b'running install_scripts\n'}
+[5.859961] (hexapod) StdoutLine: {'line': b'Installing coordinator script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[5.860252] (hexapod) StdoutLine: {'line': b'Installing leg_controller script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[5.860371] (hexapod) StdoutLine: {'line': b'Installing sensor_node script to /home/max/hexapod_ws/src/install/hexapod/lib/hexapod\n'}
+[5.860588] (hexapod) StdoutLine: {'line': b"writing list of installed files to '/home/max/hexapod_ws/src/build/hexapod/install.log'\n"}
+[5.885405] (hexapod) CommandEnded: {'returncode': 0}
+[5.892213] (hexapod) JobEnded: {'identifier': 'hexapod', 'rc': 0}
+[5.892938] (-) EventReactorShutdown: {}

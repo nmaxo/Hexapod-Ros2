@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+           schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>phantomx_description</name>
+  <version>0.1.0</version>
+  <description>Describes Phantom X robot model for Gazebo</description>
+
+  <maintainer email="pc@humarobotics.com">Philippe Capdepuy</maintainer>
+  <license>BSD</license>
+  <author email="pc@humarobotics.com">Philippe Capdepuy</author>
+
+  <!-- В ROS 2 используется ament_cmake как buildtool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Зависимости для сборки и исполнения -->
+  <depend>ament_index_cpp</depend>
+  <depend>ament_cmake</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

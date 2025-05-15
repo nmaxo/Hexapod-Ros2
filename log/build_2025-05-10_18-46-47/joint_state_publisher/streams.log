@@ -1,0 +1,22 @@
+[0.536s] Invoking command in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher': PYTHONPATH=/home/max/hexapod_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher build --build-base /home/max/hexapod_ws/build/joint_state_publisher/build install --record /home/max/hexapod_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[0.749s] running egg_info
+[0.749s] writing ../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[0.751s] reading manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.751s] adding license file 'LICENSE'
+[0.752s] writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.752s] running build
+[0.752s] running build_py
+[0.752s] running install
+[0.752s] running install_lib
+[0.753s] running install_data
+[0.753s] running install_egg_info
+[0.754s] removing '/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info' (and everything under it)
+[0.755s] Copying ../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info
+[0.755s] running install_scripts
+[0.777s] Installing joint_state_publisher script to /home/max/hexapod_ws/install/joint_state_publisher/lib/joint_state_publisher
+[0.777s] writing list of installed files to '/home/max/hexapod_ws/build/joint_state_publisher/install.log'
+[0.812s] Invoked command in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/home/max/hexapod_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher build --build-base /home/max/hexapod_ws/build/joint_state_publisher/build install --record /home/max/hexapod_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
