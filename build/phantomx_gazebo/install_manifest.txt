@@ -7,7 +7,8 @@
 /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/__init__.py
 /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/phantomx.py
 /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo//launch/phantomx_gazebo.launch.py
-/home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/walker
+/home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/walker.py
+/home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/forward_kin.py
 /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/package_run_dependencies/phantomx_gazebo
 /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/parent_prefix_path/phantomx_gazebo
 /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/ament_prefix_path.sh

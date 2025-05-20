@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from custom_interfaces.msg import LegCommand, LegStatus, SensorData
+from custom_interfaces.msg import LegCommand, LegStatus, SensorData,MotorCmd
 from geometry_msgs.msg import Point
 from std_msgs.msg import Float32
 from hexapod.Ax18 import Ax18
@@ -19,20 +20,26 @@ class OneLegController(Node):
         self.sensor_threshold = 50  # Пороговое значение датчика
         self.trajectory = []
         self.traj_idx = 0
+        self.current_point = Point()
         self.last_sensor_time = self.get_clock().now()
         
         # Инициализация моторов
 
         base_id = (self.leg_num - 1) * 3
-        self.motor_coxa = Ax18(base_id + 1)
-        self.motor_femur = Ax18(base_id + 2)
-        self.motor_tibia = Ax18(base_id + 3)
+        self.motor_coxa = base_id + 1
+        self.motor_femur = base_id + 2
+        self.motor_tibia = base_id + 3
 
 
         # ROS 2 интерфейсы
         self.status_pub = self.create_publisher(LegStatus, f'/leg_status', 10)
+
         self.command_sub = self.create_subscription(
             LegCommand, f'/leg_command', self.command_callback, 10)
+        
+        self.dxl_pub = self.create_publisher(MotorCmd,f'/dxl_com',10)
+
+        self.timer_dxl = self.create_timer(1, self.dxl_publisher)
         
         # Подписка на сенсоры с фильтрацией по номеру ноги
         self.sensor_sub = self.create_subscription(
@@ -57,6 +64,21 @@ class OneLegController(Node):
             self.stop_motors()
         elif msg.command_type == "set_sensor_threshold":
             self.sensor_threshold = msg.value
+
+    def dxl_publisher(self):
+        msg = MotorCmd()
+        msg.servo_ids = [self.motor_coxa, self.motor_femur, self.motor_tibia]
+        
+        # Явное преобразование Point в список
+        msg.positions = [
+            int(self.current_point.x),
+            int(self.current_point.y), 
+            int(self.current_point.z)
+        ]
+        
+        self.dxl_pub.publish(msg)
+        self.get_logger().info(f"Моторам {msg.servo_ids} отправлены позиции {msg.positions} ")
+    
 
     def handle_trajectory_command(self, msg):
         """Обработка команд с траекторией"""
@@ -119,16 +141,9 @@ class OneLegController(Node):
     def execute_trajectory_step(self):
         """Выполнение одного шага траектории"""
         try:
-            point = self.trajectory[self.traj_idx]
-            self.get_logger().debug(f"Точка траектории: {point.x}, {point.y}, {point.z}")
+            self.current_point = self.trajectory[self.traj_idx]
             
-            # Плавное управление моторами
-            self.motor_coxa.set_goal_position(int(point.x))
-            time.sleep(0.01)
-            self.motor_femur.set_goal_position(int(point.y))
-            time.sleep(0.01)
-            self.motor_tibia.set_goal_position(int(point.z))
-            time.sleep(1.0)
+ 
         except Exception as e:
             self.get_logger().error(f"Ошибка выполнения шага: {str(e)}")
             self.state = "idle"
@@ -138,11 +153,6 @@ class OneLegController(Node):
         self.get_logger().info("Поиск опоры...")
         
         # Текущие позиции
-        current_pos = [
-            self.motor_coxa.get_present_position(),
-            self.motor_femur.get_present_position(),
-            self.motor_tibia.get_present_position()
-        ]
         
         # Медленно опускаем ногу
         # for i in range(10):
@@ -153,17 +163,8 @@ class OneLegController(Node):
         #     self.motor_tibia.set_goal_position(new_pos)
         #     time.sleep(1)
 
-    def stop_motors(self):
-        """Остановка моторов"""
-        for motor in [self.motor_coxa, self.motor_femur, self.motor_tibia]:
-            motor.set_moving_speed(0)
-            motor.set_goal_position(motor.get_present_position())
 
     def shutdown(self):
-        """Корректное завершение работы"""
-        self.stop_motors()
-        for motor in [self.motor_coxa, self.motor_femur, self.motor_tibia]:
-            motor.set_torque_enable(0)
         Ax18.disconnect()
         self.get_logger().info(f"Нога {self.leg_num} отключена")
 

@@ -828,7 +828,7 @@ lifecycle_msgs_DIR:PATH=/opt/ros/humble/share/lifecycle_msgs/cmake
 message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for octomap.
-octomap_DIR:PATH=/usr/share/octomap
+octomap_DIR:PATH=/opt/ros/humble/share/octomap
 
 //Path to a library.
 onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
@@ -891,10 +891,10 @@ pkgcfg_lib_PC_FCL_fcl:FILEPATH=/usr/lib/x86_64-linux-gnu/libfcl.so
 pkgcfg_lib_PC_FCL_m:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 
 //Path to a library.
-pkgcfg_lib_PC_FCL_octomap:FILEPATH=/usr/lib/x86_64-linux-gnu/liboctomap.so
+pkgcfg_lib_PC_FCL_octomap:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
 
 //Path to a library.
-pkgcfg_lib_PC_FCL_octomath:FILEPATH=/usr/lib/x86_64-linux-gnu/liboctomath.so
+pkgcfg_lib_PC_FCL_octomath:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 
 //Path to a library.
 pkgcfg_lib_TBB_tbb:FILEPATH=/usr/lib/x86_64-linux-gnu/libtbb.so
@@ -1648,32 +1648,32 @@ PC_CURL_libcurl_INCLUDEDIR:INTERNAL=
 PC_CURL_libcurl_LIBDIR:INTERNAL=
 PC_CURL_libcurl_PREFIX:INTERNAL=
 PC_CURL_libcurl_VERSION:INTERNAL=
-PC_FCL_CFLAGS:INTERNAL=-std=c++11;-I/usr/include/eigen3
+PC_FCL_CFLAGS:INTERNAL=-std=c++11;-I/opt/ros/humble/include;-I/usr/include/eigen3
 PC_FCL_CFLAGS_I:INTERNAL=
 PC_FCL_CFLAGS_OTHER:INTERNAL=-std=c++11
 PC_FCL_FOUND:INTERNAL=1
 PC_FCL_INCLUDEDIR:INTERNAL=/usr/include
-PC_FCL_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
-PC_FCL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
+PC_FCL_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/include;/usr/include/eigen3
+PC_FCL_LDFLAGS:INTERNAL=-L/opt/ros/humble/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
 PC_FCL_LDFLAGS_OTHER:INTERNAL=
 PC_FCL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 PC_FCL_LIBRARIES:INTERNAL=fcl;ccd;m;octomap;octomath
-PC_FCL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_FCL_LIBRARY_DIRS:INTERNAL=/opt/ros/humble/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu
 PC_FCL_LIBS:INTERNAL=
 PC_FCL_LIBS_L:INTERNAL=
 PC_FCL_LIBS_OTHER:INTERNAL=
 PC_FCL_LIBS_PATHS:INTERNAL=
 PC_FCL_MODULE_NAME:INTERNAL=fcl
 PC_FCL_PREFIX:INTERNAL=/usr
-PC_FCL_STATIC_CFLAGS:INTERNAL=-std=c++11;-I/usr/include/eigen3
+PC_FCL_STATIC_CFLAGS:INTERNAL=-std=c++11;-I/opt/ros/humble/include;-I/usr/include/eigen3
 PC_FCL_STATIC_CFLAGS_I:INTERNAL=
 PC_FCL_STATIC_CFLAGS_OTHER:INTERNAL=-std=c++11
-PC_FCL_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
-PC_FCL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
+PC_FCL_STATIC_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/include;/usr/include/eigen3
+PC_FCL_STATIC_LDFLAGS:INTERNAL=-L/opt/ros/humble/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
 PC_FCL_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_FCL_STATIC_LIBDIR:INTERNAL=
 PC_FCL_STATIC_LIBRARIES:INTERNAL=fcl;ccd;m;octomap;octomath
-PC_FCL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_FCL_STATIC_LIBRARY_DIRS:INTERNAL=/opt/ros/humble/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu
 PC_FCL_STATIC_LIBS:INTERNAL=
 PC_FCL_STATIC_LIBS_L:INTERNAL=
 PC_FCL_STATIC_LIBS_OTHER:INTERNAL=

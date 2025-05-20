@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: phantomx_description
+    relative_path: urdf/phantomx.urdf
+  srdf:
+    relative_path: config/PhantomX.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1747740741
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

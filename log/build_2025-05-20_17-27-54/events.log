@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000500] (-) JobUnselected: {'identifier': 'hexapod'}
+[0.000513] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.000524] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.000534] (-) JobUnselected: {'identifier': 'move_it_config'}
+[0.000544] (-) JobUnselected: {'identifier': 'phantomx_control'}
+[0.000554] (-) JobUnselected: {'identifier': 'phantomx_description'}
+[0.000566] (phantomx_gazebo) JobQueued: {'identifier': 'phantomx_gazebo', 'dependencies': OrderedDict([('phantomx_description', '/home/max/hexapod_ws/install/phantomx_description'), ('phantomx_control', '/home/max/hexapod_ws/install/phantomx_control')])}
+[0.000583] (phantomx_gazebo) JobStarted: {'identifier': 'phantomx_gazebo'}
+[0.013906] (phantomx_gazebo) JobEnded: {'identifier': 'phantomx_gazebo', 'rc': 1}
+[0.014374] (-) EventReactorShutdown: {}

@@ -71,7 +71,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/phantomx_gazebo" TYPE PROGRAM RENAME "walker" FILES "/home/max/hexapod_ws/src/phantomx_gazebo/scripts/walker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/phantomx_gazebo" TYPE PROGRAM FILES
+    "/home/max/hexapod_ws/src/phantomx_gazebo/scripts/walker.py"
+    "/home/max/hexapod_ws/src/phantomx_gazebo/scripts/forward_kin.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

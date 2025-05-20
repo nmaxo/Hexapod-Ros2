@@ -1,0 +1,6 @@
+# Default initial positions for PhantomX's ros2_control fake system
+
+initial_positions:
+  j_c1_lf: 0
+  j_thigh_lf: 0
+  j_tibia_lf: 0

@@ -1,0 +1,2 @@
+Invoking command in '/home/max/hexapod_ws/build/phantomx_description': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description
+Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '1': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description

@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LegStatus.msg"
   "msg/SensorData.msg"
   "msg/MotorCmd.msg"
+  "msg/Legfeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs  # Обе зависимости
 )
 

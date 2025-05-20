@@ -1,0 +1,31 @@
+[0.199s] Invoking command in '/home/max/hexapod_ws/build/phantomx_description': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description
+[0.209s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.352s] Error parsing '/home/max/hexapod_ws/src/phantomx_description/package.xml':
+[0.391s] Traceback (most recent call last):
+[0.391s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.391s]     main()
+[0.391s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.391s]     raise e
+[0.391s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.391s]     package = parse_package_string(
+[0.391s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.391s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.391s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/max/hexapod_ws/src/phantomx_description/package.xml':
+[0.391s] Error(s):
+[0.391s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[0.406s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.406s]   execute_process(/usr/bin/python3
+[0.406s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.406s]   /home/max/hexapod_ws/src/phantomx_description/package.xml
+[0.407s]   /home/max/hexapod_ws/build/phantomx_description/ament_cmake_core/package.cmake)
+[0.407s]   returned error code 1
+[0.407s] Call Stack (most recent call first):
+[0.407s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.407s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.407s]   CMakeLists.txt:14 (ament_package)
+[0.407s] 
+[0.407s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.407s] See also "/home/max/hexapod_ws/build/phantomx_description/CMakeFiles/CMakeOutput.log".
+[0.409s] Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '1': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description

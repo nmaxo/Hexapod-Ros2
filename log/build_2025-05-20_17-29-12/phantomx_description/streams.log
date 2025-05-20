@@ -1,0 +1,36 @@
+[0.199s] Invoking command in '/home/max/hexapod_ws/build/phantomx_description': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.614s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.623s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.623s]   By not providing "Findament_python.cmake" in CMAKE_MODULE_PATH this project
+[0.623s]   has asked CMake to find a package configuration file provided by
+[0.623s]   "ament_python", but CMake did not find one.
+[0.623s] 
+[0.623s]   Could not find a package configuration file provided by "ament_python" with
+[0.623s]   any of the following names:
+[0.623s] 
+[0.623s]     ament_pythonConfig.cmake
+[0.623s]     ament_python-config.cmake
+[0.624s] 
+[0.624s]   Add the installation prefix of "ament_python" to CMAKE_PREFIX_PATH or set
+[0.624s]   "ament_python_DIR" to a directory containing one of the above files.  If
+[0.624s]   "ament_python" provides a separate development package or SDK, be sure it
+[0.624s]   has been installed.
+[0.624s] 
+[0.624s] -- Configuring incomplete, errors occurred!
+[0.624s] See also "/home/max/hexapod_ws/build/phantomx_description/CMakeFiles/CMakeOutput.log".
+[0.624s] [0m
+[0.626s] Invoked command in '/home/max/hexapod_ws/build/phantomx_description' returned '1': /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_description -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_description

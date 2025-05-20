@@ -1,0 +1,31 @@
+digraph G {
+"c1_lf" -> "c2_lf"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_lf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c1_lm" -> "c2_lm"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_lm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c1_lr" -> "c2_lr"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_lr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c1_rf" -> "c2_rf"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_rf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c1_rm" -> "c2_rm"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_rm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c1_rr" -> "c2_rr"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"MP_BODY" -> "c1_rr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"base_link" -> "MP_BODY"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"c2_lf" -> "thigh_lf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c2_lm" -> "thigh_lm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c2_lr" -> "thigh_lr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c2_rf" -> "thigh_rf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c2_rm" -> "thigh_rm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"c2_rr" -> "thigh_rr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_lf" -> "tibia_lf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_lm" -> "tibia_lm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_lr" -> "tibia_lr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_rf" -> "tibia_rf"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_rm" -> "tibia_rm"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+"thigh_rr" -> "tibia_rr"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1747744921.54596\nOldest transform: 1747744916.546067\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1747744921.5615065"[ shape=plaintext ] ;
+}->"base_link";
+}

@@ -1,0 +1,37 @@
+[0.520s] Invoking command in '/home/max/hexapod_ws/joint_state_publisher/joint_state_publisher': PYTHONPATH=/home/max/hexapod_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher build --build-base /home/max/hexapod_ws/build/joint_state_publisher/build install --record /home/max/hexapod_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[0.715s] running egg_info
+[0.716s] creating ../../build/joint_state_publisher/joint_state_publisher.egg-info
+[0.716s] writing ../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[0.716s] writing entry points to ../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[0.716s] writing requirements to ../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[0.716s] writing top-level names to ../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[0.717s] writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.718s] reading manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.718s] adding license file 'LICENSE'
+[0.719s] writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.719s] running build
+[0.719s] running build_py
+[0.719s] creating /home/max/hexapod_ws/build/joint_state_publisher/build
+[0.719s] creating /home/max/hexapod_ws/build/joint_state_publisher/build/lib
+[0.719s] creating /home/max/hexapod_ws/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.720s] copying joint_state_publisher/__init__.py -> /home/max/hexapod_ws/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.720s] copying joint_state_publisher/joint_state_publisher.py -> /home/max/hexapod_ws/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.720s] running install
+[0.720s] running install_lib
+[0.721s] creating /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.721s] copying /home/max/hexapod_ws/build/joint_state_publisher/build/lib/joint_state_publisher/__init__.py -> /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.721s] copying /home/max/hexapod_ws/build/joint_state_publisher/build/lib/joint_state_publisher/joint_state_publisher.py -> /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.722s] byte-compiling /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/__init__.py to __init__.cpython-310.pyc
+[0.722s] byte-compiling /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py to joint_state_publisher.cpython-310.pyc
+[0.727s] running install_data
+[0.727s] creating /home/max/hexapod_ws/install/joint_state_publisher/share/ament_index
+[0.727s] creating /home/max/hexapod_ws/install/joint_state_publisher/share/ament_index/resource_index
+[0.727s] creating /home/max/hexapod_ws/install/joint_state_publisher/share/ament_index/resource_index/packages
+[0.727s] copying resource/joint_state_publisher -> /home/max/hexapod_ws/install/joint_state_publisher/share/ament_index/resource_index/packages
+[0.727s] copying package.xml -> /home/max/hexapod_ws/install/joint_state_publisher/share/joint_state_publisher
+[0.727s] running install_egg_info
+[0.729s] Copying ../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/max/hexapod_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info
+[0.730s] running install_scripts
+[0.746s] Installing joint_state_publisher script to /home/max/hexapod_ws/install/joint_state_publisher/lib/joint_state_publisher
+[0.746s] writing list of installed files to '/home/max/hexapod_ws/build/joint_state_publisher/install.log'

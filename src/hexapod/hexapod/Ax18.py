@@ -324,55 +324,6 @@ class Ax18:
             print("Succeeded to change the baudrate")
         else:
             print("Failed to change the baudrate")
-            print("Press any key to import rclpy
-from rclpy.node import Node
-from threading import Lock
-from collections import defaultdict
-
-class DxlDriver(Node):
-    def __init__(self):
-        super().__init__('dxl_driver')
-        self.motor_positions = {}  # motor_id -> position
-        self.lock = Lock()
-        self.timer_period = 0.05  # 50 мс
-        self.timer = self.create_timer(self.timer_period, self.timer_callback)
-
-        self.create_subscription(MotorCommand, '/motor_command', self.command_callback, 10)
-        self.port = open_serial_port('/dev/ttyUSB0')
-
-    def command_callback(self, msg):
-        with self.lock:
-            self.motor_positions[msg.motor_id] = msg.position
-
-    def timer_callback(self):
-        with self.lock:
-            if not self.motor_positions:
-                return
-            positions_to_send = self.motor_positions.copy()
-            # Можно не очищать, чтобы сохранять последние позиции
-            # self.motor_positions.clear()
-
-        self.send_broadcast_command(positions_to_send)
-
-    def send_broadcast_command(self, positions):
-        # Формируем пакет с позициями всех моторов
-        packet = self.build_packet(positions)
-        self.port.write(packet)
-        self.get_logger().info(f"Broadcast sent: {positions}")
-
-    def build_packet(self, positions):
-        # Формирование пакета зависит от протокола
-        # Например, собрать байты с адресами и позициями моторов
-        return b'...'  # Реализуйте согласно протоколу
-
-def main(args=None):
-    rclpy.init(args=args)
-    node = DxlDriver()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
-terminate...")
-            quit()
 
     @classmethod
     def connect(cls):
@@ -417,6 +368,14 @@ terminate...")
         # Очистка параметров после отправки
         cls.groupSyncWrite.clearParam()
         return True
+    
+    @classmethod
+    def sync_read_positions(cls, motor_ids):
+        """
+        Синхронное чтение позиций не поддерживатеся для AX18
+        """
+
+
 
     @classmethod
     def disconnect(cls):

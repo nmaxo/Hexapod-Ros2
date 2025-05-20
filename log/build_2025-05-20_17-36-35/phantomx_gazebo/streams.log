@@ -1,0 +1,161 @@
+[0.014s] Invoking command in '/home/max/hexapod_ws/build/phantomx_gazebo': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_gazebo -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_gazebo
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.444s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.471s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.533s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.546s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.576s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.670s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.717s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.826s] -- Found Threads: TRUE  
+[0.860s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.861s] -- Checking for module 'bullet>=2.82'
+[0.870s] --   Found bullet, version 3.05
+[0.952s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.988s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.002s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.025s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.037s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.042s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.047s] -- Searching for dependencies of ignition-math6
+[1.048s] -- Looking for OGRE...
+[1.048s] -- OGRE_PREFIX_WATCH changed.
+[1.053s] -- Checking for module 'OGRE'
+[1.063s] --   Found OGRE, version 1.9.0
+[1.086s] -- Found Ogre Ghadamon (1.9.0)
+[1.092s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.099s] -- Looking for OGRE_Paging...
+[1.105s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.105s] -- Looking for OGRE_Terrain...
+[1.110s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.110s] -- Looking for OGRE_Property...
+[1.115s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.115s] -- Looking for OGRE_RTShaderSystem...
+[1.119s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.119s] -- Looking for OGRE_Volume...
+[1.125s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.125s] -- Looking for OGRE_Overlay...
+[1.129s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.231s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.232s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.233s] -- Searching for dependencies of ignition-transport8
+[1.248s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.257s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.261s] -- Checking for module 'libzmq >= 4'
+[1.271s] --   Found libzmq , version 4.3.4
+[1.297s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.301s] -- Checking for module 'uuid'
+[1.310s] --   Found uuid, version 2.37.2
+[1.334s] -- Found UUID: TRUE  
+[1.336s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.336s] -- Searching for dependencies of ignition-msgs5
+[1.352s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.358s] -- Checking for module 'tinyxml2'
+[1.367s] --   Found tinyxml2, version 9.0.0
+[1.391s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.393s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.393s] -- Searching for dependencies of ignition-common3
+[1.393s] -- Looking for dlfcn.h - found
+[1.394s] -- Looking for libdl - found
+[1.395s] -- Found DL: TRUE  
+[1.404s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.405s] -- Searching for <ignition-common3> component [graphics]
+[1.406s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.407s] -- Searching for dependencies of ignition-common3-graphics
+[1.407s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.410s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.411s] -- Searching for dependencies of ignition-fuel_tools4
+[1.471s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.478s] -- Checking for module 'jsoncpp'
+[1.487s] --   Found jsoncpp, version 1.9.5
+[1.512s] -- Found JSONCPP: TRUE  
+[1.516s] -- Checking for module 'libzip'
+[1.528s] --   Found libzip, version 1.7.3
+[1.556s] -- Found ZIP: TRUE  
+[1.557s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.557s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.557s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.560s] -- Gazebo version: 11.10
+[1.560s] -- Checking for module 'tbb'
+[1.570s] --   Found tbb, version 2021.5.0
+[1.601s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[1.753s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.762s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.763s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.763s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.942s] -- Configuring done
+[1.947s] -- Generating done
+[1.949s] -- Build files have been written to: /home/max/hexapod_ws/build/phantomx_gazebo
+[1.963s] Invoked command in '/home/max/hexapod_ws/build/phantomx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake /home/max/hexapod_ws/src/phantomx_gazebo -DCMAKE_INSTALL_PREFIX=/home/max/hexapod_ws/install/phantomx_gazebo
+[1.964s] Invoking command in '/home/max/hexapod_ws/build/phantomx_gazebo': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_gazebo -- -j8 -l8
+[2.007s] Built target ament_cmake_python_copy_connections_api
+[2.196s] running egg_info
+[2.197s] creating connections_api.egg-info
+[2.197s] writing connections_api.egg-info/PKG-INFO
+[2.197s] writing dependency_links to connections_api.egg-info/dependency_links.txt
+[2.197s] writing top-level names to connections_api.egg-info/top_level.txt
+[2.197s] writing manifest file 'connections_api.egg-info/SOURCES.txt'
+[2.198s] reading manifest file 'connections_api.egg-info/SOURCES.txt'
+[2.199s] writing manifest file 'connections_api.egg-info/SOURCES.txt'
+[2.221s] Built target ament_cmake_python_build_connections_api_egg
+[2.231s] Invoked command in '/home/max/hexapod_ws/build/phantomx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --build /home/max/hexapod_ws/build/phantomx_gazebo -- -j8 -l8
+[2.238s] Invoking command in '/home/max/hexapod_ws/build/phantomx_gazebo': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_gazebo
+[2.245s] -- Install configuration: ""
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/pythonpath.sh
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/pythonpath.dsv
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/PKG-INFO
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.245s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api-0.0.0-py3.10.egg-info/top_level.txt
+[2.246s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api
+[2.246s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/__init__.py
+[2.246s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/phantomx.py
+[2.271s] Listing '/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api'...
+[2.272s] Compiling '/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/__init__.py'...
+[2.272s] Compiling '/home/max/hexapod_ws/install/phantomx_gazebo/local/lib/python3.10/dist-packages/connections_api/phantomx.py'...
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo//launch
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo//launch/phantomx_gazebo.launch.py
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/walker.py
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/lib/phantomx_gazebo/forward_kin.py
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/package_run_dependencies/phantomx_gazebo
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/parent_prefix_path/phantomx_gazebo
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/ament_prefix_path.sh
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/ament_prefix_path.dsv
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/path.sh
+[2.276s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/environment/path.dsv
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.bash
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.sh
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.zsh
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/local_setup.dsv
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.dsv
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/ament_index/resource_index/packages/phantomx_gazebo
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/cmake/phantomx_gazeboConfig.cmake
+[2.277s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/cmake/phantomx_gazeboConfig-version.cmake
+[2.278s] -- Installing: /home/max/hexapod_ws/install/phantomx_gazebo/share/phantomx_gazebo/package.xml
+[2.279s] Invoked command in '/home/max/hexapod_ws/build/phantomx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/max/hexapod_ws/install/phantomx_control:/home/max/hexapod_ws/install/phantomx_description:/home/max/hexapod_ws/install/phantomx_gazebo:/home/max/hexapod_ws/install/custom_interfaces:/home/max/lhex/gazebo_ros2_control/gazebo_ros2_control_demos/install/gazebo_ros2_control_demos:/home/max/hexapod_ws/install/joint_state_publisher_gui:/home/max/hexapod_ws/install/joint_state_publisher:/home/max/hexapod_ws/install/hexapod:/home/max/ros2_ws/install/talker:/home/max/ros2_ws/install/my_turtle_controller:/home/max/ros2_ws/install/listener:/opt/ros/humble /usr/bin/cmake --install /home/max/hexapod_ws/build/phantomx_gazebo
